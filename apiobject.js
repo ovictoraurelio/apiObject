@@ -153,3 +153,11 @@ function isNotNull(obj){
         return obj != null && obj != undefined && obj != "";
     }
 }
+
+function getUrlRequest(requirement){
+    var protocolo = window.location.protocol;
+    var url = window.location.hostname;
+    //var url_origem = protocolo + "//" + url + "/www/_admin/_server/admin/" + requirement;
+    var url_origem = "myurl/url/url" + requirement;
+    return url_origem;
+}
