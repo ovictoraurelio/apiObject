@@ -161,3 +161,7 @@ function getUrlRequest(requirement){
     var url_origem = "myurl/url/url" + requirement;
     return url_origem;
 }
+
+String.prototype.capitalizeFirstLetter = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
